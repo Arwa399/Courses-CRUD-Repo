@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/courses",
+            "destination": "/server.js"
+        }
+    ]
+}
