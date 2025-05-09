@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/courses",
-            "destination": "/server.js"
+            "destination": "/index.js"
         }
     ]
 }
