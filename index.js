@@ -7,7 +7,9 @@ const app = express();
 app.use(bodyParser.json());
 
 app.use("/courses", courseRoutes)
-
+app.get("/", (req, res) => {
+res.send("Hello World!");
+});
 connectDB();
 
 
